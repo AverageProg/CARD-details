@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Barlow", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/bg-main-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    transform: scale(1.2); 
+    transform-origin: center;
+}
+
+.credit-card {
+    width: 320px;
+    position: relative;
+}
+
+.credit-card-front,.credit-card-back {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.card-back{
+    padding-left: 240px;
+    border-radius:5px;
+    width: 80px;
+    height: 20px;
+    background-image: url('images/bg-card-back.png');
+}
+
+
+.credit-card-front {
+    background-image: url('images/bg-card-front.png');
+    color: #fff;
+    position: relative;
+    left: -150px; 
+}
+.credit-card-back {
+    background: #bbb;
+    color: #333;
+    top: 220px;
+}
+
+.card-number {
+    font-size: 19px;
+    margin-bottom: 30px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.card-owner {
+    position: relative; 
+    margin-top: 40px;
+    padding-left: 10px;
+    font-size: 16px; 
+  }
+  
+
+.expiration-date{
+    font-size: 14px;
+    padding-left: 270px;
+    padding-bottom: 10px;
+}
+
+.blank-line {
+    background: #000;
+    height: 40px;
+    width: 100%;
+    margin: 10px 0;
+    
+}
+
+.form-container {
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #6925c9;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#exp-date-mm{
+    width: 100px;
+    margin-top: 20px;
+    
+}
+
+#exp-date-yy{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+}
