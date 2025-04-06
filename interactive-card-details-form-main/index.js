@@ -5,11 +5,11 @@ let expirationYearInput = document.querySelector('#exp-date-yy');
 let cvcInput = document.querySelector('#cvc');
 let correct_wrong = document.querySelector('.correct-wrong')
 
-let savedCardholderName = "Slobodan Drljic";
-let savedCardNumber = "4235 5467 2341 4356";
-let savedExpirationMonth = "12";
-let savedExpirationYear = "26";
-let savedCVC = "123";
+let savedCardholderName = "Slobodan Drljic"; // example inputs for testing purposes
+let savedCardNumber = "4235 5467 2341 4356"; // example inputs for testing purposes
+let savedExpirationMonth = "12"; // example inputs for testing purposes
+let savedExpirationYear = "26";// example inputs for testing purposes 
+let savedCVC = "123";// example inputs for testing purposes
 
 function validateInput(inputElement, correctValue) {
     if (inputElement.value !== correctValue) {  
